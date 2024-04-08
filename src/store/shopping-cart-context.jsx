@@ -5,3 +5,5 @@ export const CartContext = createContext({
   addItemToCart: () => {},
   updateItemQuantity: () => {},
 });
+
+export default function CartContextProvider() {}
